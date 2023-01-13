@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+body {
+    background-color: lightgrey;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+main.container {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+
+main > .bloco-1{
+    background-color: rgba(0, 0, 255, 0.466);
+    height: 100px;
+    width: 150px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+main > .bloco-2 {
+    background-color: rgba(255, 0, 0, 0.575);
+    height: 100px;
+    width: 150px;
+    border-radius: 20px ;
+    text-align: center;
+}
+
+main > .bloco-3{
+    background-color: rgba(255, 255, 0, 0.459);
+    height: 100px;
+    width: 150px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/*flex box 2*/
+
+section.container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+section > .block-1{
+    background-color: rgba(0, 0, 255, 0.466);
+    height: 100px;
+    width: 150px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+section > .block-2 {
+    background-color: rgba(255, 0, 0, 0.575);
+    height: 100px;
+    width: 150px;
+    border-radius: 20px ;
+    text-align: center;
+}
+
+section > .block-3{
+    background-color: rgba(255, 255, 0, 0.459);
+    height: 100px;
+    width: 150px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/*flex box 3*/
+
+section.container-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+section > .bk-1{
+    background-color: rgba(0, 0, 255, 0.466);
+    height: 100px;
+    width: 150px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+section > .bk-2 {
+    background-color: rgba(255, 0, 0, 0.575);
+    height: 100px;
+    width: 150px;
+    border-radius: 20px ;
+    text-align: center;
+}
+
+section > .bk-3{
+    background-color: rgba(255, 255, 0, 0.459);
+    height: 100px;
+    width: 150px;
+    border-radius: 20px;
+    text-align: center;
+}
