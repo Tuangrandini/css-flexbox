@@ -7,4 +7,29 @@ body {
     background-color: rgba(0, 0, 0, 0.74);
 }
 
-main 
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+main.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(211, 211, 211, 0.651);
+}
+
+main > #image {
+    height: 300px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid white;
+}
+
+main > #text {
+    height: 300px;
+    width: 700px;
+    background-color: rgba(0, 0, 255, 0.568);
+    border: 2px solid white;
+}
