@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(211, 211, 211, 0.863);
+}
+
+h1 {
+    text-align: center;
+}
+
+
+main {
+    background-color: rgba(172, 156, 8, 0.575);
+    height: 500px;
+}
+
+main.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+main > .bloco-1 {
+    background-color: rgba(255, 0, 0, 0.685);
+    height: 100px;
+    width: 140px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+main > .bloco-2 {
+    background-color: white;
+    height: 100px;
+    width: 140px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+main > .bloco-3 {
+    background-color: rgba(0, 0, 0, 0.555);
+    height: 100px;
+    width: 140px;
+    border-radius: 20px;
+    text-align: center;
+}
