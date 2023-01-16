@@ -56,7 +56,7 @@ body {
 .conteudo-principal-escrito {
 display: flex;
 flex-direction: column;
-gap: 30px;
+gap: 32px;
 }
 
 .conteudo-principal-escrito-titulo {
@@ -79,13 +79,19 @@ gap: 30px;
     font-weight: 400;
     font-size: 24px;
     color: #2F2325;
-    width: 185px;
-    height: 67px;
+    width: 180px;
+    height: 60px;
     left: 369px;
     top: 382px;
     background: #ECD6C4;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
+    border: none;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+    cursor: pointer;
 }
 
 
@@ -99,14 +105,17 @@ gap: 30px;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 24px;
+    margin-top: 48px;
 }
 
 .conteudo-secundario-titulo {
-    font-family: 'Righteous', sans-serif;
+    font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 24px;
     color: #FFF2E7;
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
 }
 
 .conteudo-secundario-paragrafo {
@@ -117,9 +126,12 @@ gap: 30px;
 }
 
 .rodape {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border-top: 0.4px solid #FFF2E7;
-    padding: 30px;
+    padding: 32px;
+}
+
+.rodape-imagem {
+    height: 48px;
+    display: block;
+    margin: auto;
 }
